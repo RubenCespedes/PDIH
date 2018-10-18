@@ -1,2 +1,0 @@
-gold.exe
-exit
