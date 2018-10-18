@@ -1,0 +1,436 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 20595>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 8.00 Tf ET
+0 G
+0 g
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 36.42 Tm 0 Tr ( 1  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 36.42 Tm 0 Tr (#ifndef BYTE) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 47.76 Tm 0 Tr ( 2  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 47.55 47.76 Tm 0 Tr (    ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 66.75 47.76 Tm 0 Tr (#define BYTE unsigned char) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.10 Tm 0 Tr ( 3  ) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 47.55 59.10 Tm 0 Tr (#endif) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 70.44 Tm 0 Tr ( 4  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 81.77 Tm 0 Tr ( 5  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 81.77 Tm 0 Tr (enum ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 73.70 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 81.77 Tm 0 Tr (types ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 81.77 Tm 0 Tr ({ ) Tj  ET Q
+1.000 1.000 1.000 rg
+109.95 73.70 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 109.95 81.77 Tm 0 Tr (INVISIBLE) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 153.15 81.77 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+162.75 73.70 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 162.75 81.77 Tm 0 Tr (NORMAL) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 191.55 81.77 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+201.15 73.70 33.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 201.15 81.77 Tm 0 Tr (GRUESO ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 234.75 81.77 Tm 0 Tr (};) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.11 Tm 0 Tr ( 6  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 104.45 Tm 0 Tr ( 7  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 104.45 Tm 0 Tr (// Indica si se ha pulsado alguna tecla) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 115.79 Tm 0 Tr ( 8  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 115.79 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 107.72 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 115.79 Tm 0 Tr (kbhit) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 90.75 115.79 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.13 Tm 0 Tr ( 9  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 138.47 Tm 0 Tr (10  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 138.47 Tm 0 Tr (// Indica la posición x actual del cursor) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 149.81 Tm 0 Tr (11  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 149.81 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 141.74 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 149.81 Tm 0 Tr (wherex) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 95.55 149.81 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.14 Tm 0 Tr (12  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 172.48 Tm 0 Tr (13  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 172.48 Tm 0 Tr (// Indica la posición y actual del cursor) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 183.82 Tm 0 Tr (14  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 183.82 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 175.75 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 183.82 Tm 0 Tr (wherey) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 95.55 183.82 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.16 Tm 0 Tr (15  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 206.50 Tm 0 Tr (16  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 206.50 Tm 0 Tr (// Mueve el cursor a la posición según las coordenadas especificadas por los argumentos x e y) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 217.84 Tm 0 Tr (17  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 217.84 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 209.77 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 217.84 Tm 0 Tr (gotoxy) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 217.84 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 105.15 217.84 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 209.77 4.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 217.84 Tm 0 Tr (x) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 217.84 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 138.75 217.84 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+157.95 209.77 4.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 217.84 Tm 0 Tr (y) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 162.75 217.84 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.18 Tm 0 Tr (18  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 240.51 Tm 0 Tr (19  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 240.51 Tm 0 Tr (// Fija el aspecto del cursor, debe admitir tres valores: INVISIBLE, NORMAL y GRUESO) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 251.85 Tm 0 Tr (20  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 251.85 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 243.78 62.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 251.85 Tm 0 Tr (setcursortype) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 133.95 251.85 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 138.75 251.85 Tm 0 Tr (enum ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+162.75 243.78 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 162.75 251.85 Tm 0 Tr (types) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 251.85 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.19 Tm 0 Tr (21  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 274.53 Tm 0 Tr (22  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 274.53 Tm 0 Tr (// Fija el modo de video deseado) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 285.87 Tm 0 Tr (23  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 285.87 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 277.80 57.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 285.87 Tm 0 Tr (setvideomode) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 129.15 285.87 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+133.95 277.80 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 133.95 285.87 Tm 0 Tr (BYTE modo) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 177.15 285.87 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.21 Tm 0 Tr (24  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 308.55 Tm 0 Tr (25  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 308.55 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 300.48 86.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 308.55 Tm 0 Tr (ajustar_resolucion) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 157.95 308.55 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 162.75 308.55 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+181.95 300.48 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 181.95 308.55 Tm 0 Tr (nuevo_modo) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 229.95 308.55 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 319.88 Tm 0 Tr (26  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.22 Tm 0 Tr (27  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 331.22 Tm 0 Tr (// Obtiene el modo de video actual) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 342.56 Tm 0 Tr (28  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 342.56 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 334.49 57.60 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 342.56 Tm 0 Tr (getvideomode) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 342.56 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 353.90 Tm 0 Tr (29  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.24 Tm 0 Tr (30  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 365.24 Tm 0 Tr (// Modifica el color de primer plano con que se mostrarán los caracteres) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 376.58 Tm 0 Tr (31  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 376.58 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 368.51 43.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 376.58 Tm 0 Tr (textcolor) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 114.75 376.58 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 119.55 376.58 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+138.75 368.51 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 138.75 376.58 Tm 0 Tr (color) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 162.75 376.58 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 387.92 Tm 0 Tr (32  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.25 Tm 0 Tr (33  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 399.25 Tm 0 Tr (// Modifica el color de fondo con que se mostrarán los caracteres) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 410.59 Tm 0 Tr (34  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 410.59 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 402.52 67.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 410.59 Tm 0 Tr (textbackground) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 410.59 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 421.93 Tm 0 Tr (35  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.27 Tm 0 Tr (36  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 433.27 Tm 0 Tr (// Borra toda la pantalla) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 444.61 Tm 0 Tr (37  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 444.61 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 436.54 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 444.61 Tm 0 Tr (clrscr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 444.61 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 455.95 Tm 0 Tr (38  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.29 Tm 0 Tr (39  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 467.29 Tm 0 Tr (// Borra una línea desde la posición actual del cursor hasta el final de la misma) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 478.62 Tm 0 Tr (40  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 478.62 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 470.55 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 478.62 Tm 0 Tr (clreol) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 478.62 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 489.96 Tm 0 Tr (41  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.30 Tm 0 Tr (42  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 501.30 Tm 0 Tr (// Desplaza toda la pantalla una línea hacia arriba) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 512.64 Tm 0 Tr (43  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 512.64 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 504.57 38.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 512.64 Tm 0 Tr (scrollup) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 109.95 512.64 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.75 512.64 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+133.95 504.57 38.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 133.95 512.64 Tm 0 Tr (n_lineas) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 512.64 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 181.95 512.64 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+201.15 504.57 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 201.15 512.64 Tm 0 Tr (color) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 225.15 512.64 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 234.75 512.64 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+253.95 504.57 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 253.95 512.64 Tm 0 Tr (lsi) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 512.64 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 277.95 512.64 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+297.15 504.57 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 297.15 512.64 Tm 0 Tr (csi) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 311.55 512.64 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 321.15 512.64 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+340.35 504.57 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 340.35 512.64 Tm 0 Tr (lid) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 354.75 512.64 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 364.35 512.64 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+383.55 504.57 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 383.55 512.64 Tm 0 Tr (cid) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 397.95 512.64 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 523.98 Tm 0 Tr (44  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.32 Tm 0 Tr (45  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 535.32 Tm 0 Tr (// Desplaza toda la pantalla una línea hacia abajo) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 546.66 Tm 0 Tr (46  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 546.66 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 538.59 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 546.66 Tm 0 Tr (scrolldown) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 119.55 546.66 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 124.35 546.66 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+143.55 538.59 38.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 143.55 546.66 Tm 0 Tr (n_lineas) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 181.95 546.66 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 191.55 546.66 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+210.75 538.59 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 210.75 546.66 Tm 0 Tr (color) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 234.75 546.66 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 244.35 546.66 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+263.55 538.59 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 263.55 546.66 Tm 0 Tr (lsi) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 277.95 546.66 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 287.55 546.66 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+306.75 538.59 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 306.75 546.66 Tm 0 Tr (csi) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 321.15 546.66 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 330.75 546.66 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+349.95 538.59 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 349.95 546.66 Tm 0 Tr (lid) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 546.66 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 373.95 546.66 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+393.15 538.59 14.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 393.15 546.66 Tm 0 Tr (cid) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 407.55 546.66 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 557.99 Tm 0 Tr (47  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.33 Tm 0 Tr (48  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 569.33 Tm 0 Tr (// Escribe un caracter en pantalla con el color indicado actualmente) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 580.67 Tm 0 Tr (49  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 580.67 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 572.60 38.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 580.67 Tm 0 Tr (cputchar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 109.95 580.67 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 114.75 580.67 Tm 0 Tr (const char) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 162.75 580.67 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 172.35 580.67 Tm 0 Tr (int) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 580.67 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.01 Tm 0 Tr (50  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.35 Tm 0 Tr (51  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 603.35 Tm 0 Tr (// Obtiene el caracter de teclado y lo muestra en pantalla) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 614.69 Tm 0 Tr (52  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 614.69 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 606.62 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 614.69 Tm 0 Tr (getche) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 95.55 614.69 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.03 Tm 0 Tr (53  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.36 Tm 0 Tr (54  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 637.36 Tm 0 Tr (// Obtiene un caracter desde el teclado) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 648.70 Tm 0 Tr (55  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 648.70 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 640.63 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 648.70 Tm 0 Tr (getch) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 90.75 648.70 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.04 Tm 0 Tr (56  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.38 Tm 0 Tr (57  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 671.38 Tm 0 Tr (// Imprime una cadena de caracteres en pantalla) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 682.72 Tm 0 Tr (58  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 682.72 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 674.65 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 682.72 Tm 0 Tr (cputs) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 90.75 682.72 Tm 0 Tr (\() Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 95.55 682.72 Tm 0 Tr (const char ) Tj  ET Q
+BT /F1 8.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 682.72 Tm 0 Tr (* ) Tj  ET Q
+1.000 1.000 1.000 rg
+157.95 674.65 28.80 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 157.95 682.72 Tm 0 Tr (cadena) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 186.75 682.72 Tm 0 Tr (\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.06 Tm 0 Tr (59  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.40 Tm 0 Tr (60  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 705.40 Tm 0 Tr (// Devuelve el color actual en decimal \(mezcla de color de fondo y el color de texto\)) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 716.73 Tm 0 Tr (61  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 716.73 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+66.75 708.66 38.40 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 66.75 716.73 Tm 0 Tr (getcolor) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 105.15 716.73 Tm 0 Tr (\(\);) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.07 Tm 0 Tr (62  ) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 739.41 Tm 0 Tr (63  ) Tj  ET Q
+q 0.745 0.745 0.902 rg BT 1 0 0 -1 47.55 739.41 Tm 0 Tr (// Avanza el cursor: una columna \(si puede\) o una linea y reinicia la columna a 0) Tj  ET Q
+q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 750.75 Tm 0 Tr (64  ) Tj  ET Q
+BT /F2 8.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 47.55 750.75 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 8.00 Tf ET
+1.000 1.000 1.000 rg
+71.55 742.68 67.20 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 71.55 750.75 Tm 0 Tr (avanzar_cursor) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 138.75 750.75 Tm 0 Tr (\(\)) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+5 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 5 0 R
+/F1 6 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+7 0 obj
+<<
+/Names []
+>>
+endobj
+8 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 5)
+/CreationDate (D:20180406000937)
+>>
+endobj
+9 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000020744 00000 n 
+0000021026 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000020833 00000 n 
+0000020932 00000 n 
+0000021140 00000 n 
+0000021171 00000 n 
+0000021278 00000 n 
+trailer
+<<
+/Size 10
+/Root 9 0 R
+/Info 8 0 R
+>>
+startxref
+21381
+%%EOF
