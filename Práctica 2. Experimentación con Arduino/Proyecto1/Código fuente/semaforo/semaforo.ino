@@ -1,0 +1,136 @@
+/* Definimos las variables CONSTANTES. Hemos reubicado los pines de los semaforos para poder usar los PINES 2 y 3 con INTERRUPCIONES */
+/* PINES de los SEMAFOROS */
+const int pinRed1 = 4, pinAmber1 = 5, pinGreen1 = 6;
+const int pinRed2 = 7, pinAmber2 = 8, pinGreen2 = 9;
+
+/* PINES de los BOTONES. El PIN 2 corresponde al boton que CONMUTA los MODOS MANUAL y AUTOMATICO. El PIN 3 es el que usa el peaton en modo manual para CAMBIAR EL SEMAFORO */
+const int button1Pin = 2;
+const int button2Pin = 3;
+
+/* Definimos las variables NO CONSTANTES */
+volatile byte modeManual = LOW;  // Indica el modo actual. LOW para automatico, HIGH para manual
+int transition = 0; // Si estamos en el modo manual, indica la transicion que se tiene que llevar a cabo cuando el peaton pulse el boton 2. 0 -> Nada;  1 -> de R1 a V1;  2 -> de R2 a V2
+boolean ejecutado = false;  // Si estamos en el modo manual, indica si la transicion actual ya se ha ejecutado para que no se repita continuamente en el bucle
+
+void setup() {
+  // Todos los pines de los semaforos los ponemos como salidas
+  pinMode(pinRed1, OUTPUT);
+  pinMode(pinAmber1, OUTPUT);
+  pinMode(pinGreen1, OUTPUT);
+  pinMode(pinRed2, OUTPUT);
+  pinMode(pinAmber2, OUTPUT);
+  pinMode(pinGreen2, OUTPUT);
+
+  // Los pines de los botones los preparamos para la interrupcion
+  pinMode(button1Pin, INPUT_PULLUP);
+  pinMode(button2Pin, INPUT_PULLUP);
+
+  // A la interrupcion de cada boton le asignamos una funcion para cambiar la variable que le corresponda cada vez que lo pulsemos
+  attachInterrupt(digitalPinToInterrupt(button1Pin), changeMode, RISING);
+  attachInterrupt(digitalPinToInterrupt(button2Pin), changeTransition, RISING);
+}
+
+void loop() {
+  if(!modeManual){
+    // Estado automatico
+    modo_automatico();
+  } else {
+    // Estado manual
+    modo_manual();
+  }
+}
+
+void changeMode(){
+  modeManual = !modeManual;
+}
+
+void changeTransition(){
+  // La transicion va de 0 a 1. Una vez en 1 va de 1 a 2 y de 2 a 1 continuamente. Ponemos ejecutado a false porque la nueva transicion se debera de ejecutar (cuando se ejecute la volveremos a cambiar)
+  switch(transition){
+    case 0:
+      transition = 1;
+      break;
+    case 1:
+      transition = 2;
+      ejecutado = false;
+      break;
+    case 2:
+      transition = 1;
+      ejecutado = false;
+      break;
+  }
+}
+
+void modo_automatico(){
+  // En ocasiones pasaremos del estado manual al automatico asi que apagamos los LEDs que se quedaron encendidos en dicho modo.
+  // Los LEDs seran distintos dependiendo de la ultima transicion que hayamos ejecutado
+  if(transition == 1){
+    digitalWrite(pinGreen1, LOW);
+    digitalWrite(pinRed2, LOW);
+    secuencia_4();
+  } else if(transition == 2){
+    digitalWrite(pinRed2, LOW);
+    digitalWrite(pinGreen1, LOW);
+  }
+
+  // Ejecutamos la secuencia propia del modo automatico
+  secuencia_1();
+  secuencia_2();
+  secuencia_3();
+  secuencia_4();
+}
+
+void modo_manual(){
+
+  // Comprobamos la transicion que nos toca realizar y si ya se ha ejecutado
+  switch(transition){
+    case 0:
+      // Si estamos en la transicion 0 es que venimos del modo automatico. Colocamos los LEDs en una posicion inicial de R1 encendido y V2 encendido
+      secuencia_1();
+      break;
+    case 1:
+      if(!ejecutado){
+        // Si estamos en la transicion 1 y no la hemos ejecutado aun la ejecutamos. En este caso pasamos de R1 encendido a V1 encendido
+        secuencia_2();
+        secuencia_3();
+        ejecutado = true; // Cambiamos el valor de ejecutado para que en la proxima ejecucion del bucle no se vuelva a repetir la transicion de los semaforos
+      }
+      break;
+    case 2:
+      // Igual que el anterior pero pasando de R2 a V2
+      if(!ejecutado){
+        secuencia_4();
+        secuencia_1();
+        ejecutado = true;
+      }
+      break;
+  }
+}
+
+void secuencia_1(){
+  digitalWrite(pinAmber1, LOW);
+  digitalWrite(pinRed2, LOW);
+  digitalWrite(pinRed1, HIGH);
+  digitalWrite(pinGreen2, HIGH);
+  delay(3000);
+}
+
+void secuencia_2(){
+  digitalWrite(pinGreen2, LOW);
+  digitalWrite(pinAmber2, HIGH);
+  delay(500);
+}
+
+void secuencia_3(){
+  digitalWrite(pinRed1, LOW);
+  digitalWrite(pinAmber2, LOW);
+  digitalWrite(pinRed2, HIGH);
+  digitalWrite(pinGreen1, HIGH);
+  delay(3000);
+}
+
+void secuencia_4(){
+  digitalWrite(pinGreen1, LOW);
+  digitalWrite(pinAmber1, HIGH);
+  delay(500);
+}

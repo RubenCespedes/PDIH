@@ -1,0 +1,116 @@
+﻿[code]
+#include "pitches.h"
+
+// Notas para la melodia
+int melody[] = {
+  NOTE_E7, NOTE_E7, 0, NOTE_E7, 
+  0, NOTE_C7, NOTE_E7, 0,
+  NOTE_G7, 0, 0,  0,
+  NOTE_G6, 0, 0, 0, 
+
+  NOTE_C7, 0, 0, NOTE_G6, 
+  0, 0, NOTE_E6, 0, 
+  0, NOTE_A6, 0, NOTE_B6, 
+  0, NOTE_AS6, NOTE_A6, 0, 
+
+  NOTE_G6, NOTE_E7, NOTE_G7, 
+  NOTE_A7, 0, NOTE_F7, NOTE_G7, 
+  0, NOTE_E7, 0,NOTE_C7, 
+  NOTE_D7, NOTE_B6, 0, 0,
+
+  NOTE_C7, 0, 0, NOTE_G6, 
+  0, 0, NOTE_E6, 0, 
+  0, NOTE_A6, 0, NOTE_B6, 
+  0, NOTE_AS6, NOTE_A6, 0, 
+
+  NOTE_G6, NOTE_E7, NOTE_G7, 
+  NOTE_A7, 0, NOTE_F7, NOTE_G7, 
+  0, NOTE_E7, 0,NOTE_C7, 
+  NOTE_D7, NOTE_B6, 0, 0
+};
+
+// Duracion de las notas: 4 = quarter note, 8 = eighth note, etc.:
+int noteDurations[] = {
+  12, 12, 12, 12, 
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12, 
+
+  12, 12, 12, 12,
+  12, 12, 12, 12, 
+  12, 12, 12, 12, 
+  12, 12, 12, 12, 
+
+  9, 9, 9,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+
+  9, 9, 9,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12
+};
+
+// Tamaño de los vectores anteriores
+int tam_vectores = 78;
+// Indica si se debe reproducir la cancion: LOw -> No se reproduce; HIGH -> Se reproduce
+volatile byte play = LOW;
+// Pin del boton
+int pinButton = 3;
+// Almacena la ultima nota reproducida, para volver a reproducir por dicha nota
+int ultima_nota = 0;
+
+void setup() {
+  // Preparamos la interrupcion para el boton
+  pinMode(pinButton, INPUT_PULLUP);  
+  attachInterrupt(digitalPinToInterrupt(pinButton), changePlay, RISING);
+}
+
+void loop() {
+  Serial.begin(9600);
+
+  // Almacena la nota actual
+  int thisNote;
+  
+  // iterate over the notes of the melody:
+  for (thisNote = ultima_nota; thisNote < tam_vectores && play; thisNote++) {
+      // to calculate the note duration, take one second divided by the note type.
+      //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
+      int noteDuration = 1000 / noteDurations[thisNote];
+      tone(8, melody[thisNote], noteDuration);
+  
+      // to distinguish the notes, set a minimum time between them.
+      // the note's duration + 30% seems to work well:
+      int pauseBetweenNotes = noteDuration * 1.30;
+      delay(pauseBetweenNotes);
+      // stop the tone playing:
+      noTone(8);
+  }
+
+  // Dos opciones: o se ha terminado la cancion (play = HIGH) o hemos pulsado pause
+  if(play){
+    // Si se ha terminado la cancion, volvemos al principio de ella
+    ultima_nota = 0;
+  } else {
+    // Si le hemos dado a pause, almacenamos la ultima nota reproducida para volver a empezar por ella
+    ultima_nota = thisNote;
+  }
+}
+
+void changePlay(){
+  play = !play;
+
+  if(play){
+    Serial.println("Play");
+  } else {
+    Serial.println("Pause");
+  }
+}
+
+[/code]
